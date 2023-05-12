@@ -2,96 +2,80 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Raja Muhammad Saad Bashir
     - name: Date of Birth
-      value: 14th March 1879
+      value: 5th November 1991
     - name: Languages
-      value: English, German
+      value: Urdu, Punjabi, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosopy - PhD, Computer Science
+      institution: University of Warwick, Coventry, United Kingdom
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Formulated weakly-, semi-, and unsupervised deep learning based pipelines and frameworks for optimised performance and digital biomarker discovery in giga-pixel image diagnosis and prognosis.
+        - Collaborated with a team of medical researchers to design and execute a comprehensive study on the clinical impact of the trained models; presented findings at international medical conferences.
+        - Supervised computational pathology, computer graphics and programming fundamental labs for graduates and undergraduates.
 
+    - title: Master's Degree, Computer Science 
+      institution:  National University of Science and Technology, Islamabad, Pakistan
+      year: 2016 - 2018
+      description:
+        - Built an unsupervised framework using convolutional neural networks (CNN) for intelligent surveillance of vehicle re-identification, alleviating the need for annotated data and resulting performance increase of 5-10%.
+        - Created a reliable real-time pothole detection and classification system using mobile motion sensors with 0 latency. The system demonstrated accuracy and efficiency, enabling faster identification and resolution of road hazards to improve overall safety and reduce vehicle damage.
+        - Implemented and optimized machine/deep learning server infrastructure, including installation and configuration of hardware and software components, to ensure reliable and efficient operation for data-intensive workloads saving 3-5 hours per day.
+        
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: University of Warwick, Coventry, United Kingdom
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Designed and built graph neural networks (GNNs) for exploring new digital diagnostic and prognostic biomarkers in oral epithelial dysplasia (OED), boosting accuracy by 10%.
+        - Developed deep learning frameworks for medical image analysis using PyTorch and TensorFlow and leveraged NumPy, Scikit-learn, Pandas for data preprocessing and analysis, resulted in improved model accuracy by 5-10% in multiple projects.
+        - Performed research on the effectiveness of newly discovered biomarkers in clinical settings; published findings in peer-reviewed medical journals.
+    
+    - title: Visiting Lecturer
+      institution: National University of Science and Technology, Islamabad, Pakistan
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
+        - Taught advanced undergrad courses on Machine Learning and Computer Vision to 3rd and 4th year students in SEECS and IGIS.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Software Engineer
+      institution: Aurea Software, Remote
+      year: 2018
       description:
+        - Optimised and maintained multiple projects by enhancing their functionality and fixing complex bugs in the existing workflows using Java; reduced manual inspection of code saving up to 5+ hours per week with automated tests.
+        - Executed automated test cases using JUnit and Selenium, increasing the overall code coverage for test cases up to 95%.
+        - Integrated changes on Docker, Jenkins, GitHub, and AWS, ensuring seamless functionality of the existing system.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Software Engineer
+      institution: PlanetBeyond, Islamabad, Pakistan
+      year: 2014- 2017
+      description:
+        - Implemented high-throughput value added services (VAS) for multiple telecom operators, resulting in increased revenue and customer satisfaction.
+        - Oversaw the software development lifecycle of VAS services and mobile apps, for timely and efficient delivery of critical projects.
+        - Employed Java Core, SQL, HTML, Spring, Hibernate, Angular, and Python with Maven and Gradle for design, development, testing and deployment of VAS applications.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Chancellor's International Scholarship from University of Warwick
+    - year: 2015
       items: 
-        - Max Planck Medal
+        - Silver Medal in BS Computer Science from University of Arid Agriculture, Rwalpindi, Pakistan
 
-- title: Academic Interests
-  type: nested_list
+- title: Interests
+  type: list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - Machine Learning, Computer Vision, Medical Imaging, Data Science
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Hiking 🏃‍♂️, Swimming 🏊‍♂️ , Jiu-Jitsu 🤸‍♂️

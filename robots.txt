@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: /portfolio/sitemap.xml
+Sitemap: https://isaadbashir.github.io//portfolio/sitemap.xml

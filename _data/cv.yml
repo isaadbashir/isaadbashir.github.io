@@ -30,6 +30,14 @@
 - title: Experience
   type: time_table
   contents:
+  - title: Machine Learning Scientist
+      institution: Ground Truth Labs, Oxford, United Kingdom
+      year: 2023 - 
+      description:
+        - Develop and implement advanced machine learning algorithms and models to analyze large datasets, uncover patterns, and make data-driven predictions.
+        - Collaborate with cross-functional teams to design, validate, and deploy machine learning solutions that address complex business challenges and improve decision-making processes.
+        - Stay up-to-date with the latest advancements in machine learning and AI research, and leverage that knowledge to drive innovation and continuous improvement within the organization.
+    
     - title: Research Assistant
       institution: University of Warwick, Coventry, United Kingdom
       year: 2022 - 2023

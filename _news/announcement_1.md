@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MedIA Paper Accepted
-date: 2023-05-29 07:59:00-0400
+date: 2023-07-07 07:59:00-0400
 inline: false
 related_posts: false
 ---

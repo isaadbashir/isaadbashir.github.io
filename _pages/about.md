@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Research Assistant at Tissue Image Analytics Center</b>
+subtitle: <b>Machine Learning Scientist at GTL</b>
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, my name Raja Muhammad Saad Bashir hailing from capital of Pakistan since Nov 1991; and I prefer being called Saad.
 
-I'm Machine Learning Engineer with a PhD in Computer Science and 4+ years of experience developing and implementing advanced AI algorithms. Skilled in deep learning, computer vision, and medical imaging, as well as proficient in PyTorch, TensorFlow, Python, and Java languages. Successfully delivered 5+ projects from inception to production in both academic and industrial settings.
+I'm Machine Learning Scientist with a PhD in Computer Science and 4+ years of experience developing and implementing advanced AI algorithms. Skilled in deep learning, computer vision, and medical imaging, as well as proficient in PyTorch, TensorFlow, Python, and Java languages. Successfully delivered 5+ projects from inception to production in both academic and industrial settings.
 
 My hobbies include Hiking 🏃‍♂️, Swimming 🏊‍♂️ , Jiu-Jitsu 🤸‍♂️ and now writing my thoughts and view on AI.
 

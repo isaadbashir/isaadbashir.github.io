@@ -30,7 +30,7 @@
 - title: Experience
   type: time_table
   contents:
-  - title: Machine Learning Scientist
+    - title: Machine Learning Scientist
       institution: Ground Truth Labs, Oxford, United Kingdom
       year: 2023 - Current
       description:

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Machine Learning Scientist at GTL</b>
+subtitle: <b>Machine Learning Scientist at <a href="https://groundtruthlabs.com/team">GTL</a></b>
 
 profile:
   align: right

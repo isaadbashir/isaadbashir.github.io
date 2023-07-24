@@ -3,7 +3,7 @@ layout: post
 title: A PhD in Numbers
 date: 2023-07-07 10:14:00-0400
 description: Reflecting on the extensive nature of conducting PhD research through numerical figures.
-categories: sample-posts toc sidebar
+categories: phd
 giscus_comments: true
 related_posts: false
 toc:

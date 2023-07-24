@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>A PhD in Numbers | Saad  Bashir</title>
+    <meta name="author" content="Saad  Bashir">
+    <meta name="description" content="Reflecting on the extensive nature of conducting PhD research through numerical figures.">
+    <meta name="keywords" content="machine learning, deep learning, computer vision, image processing">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    
+    <!-- Sidebar Table of Contents -->
+    <link href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" rel="stylesheet">
+    
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/logo.png">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://isaadbashir.github.io//blog/2023/phd-in-numbers/">
+
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Saad </span>Bashir</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/repositories/">repositories</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">cv</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      
+        
+        <div class="row">
+          <!-- sidebar, which will move to the top on a small screen -->
+          <div class="col-sm-3">
+            <nav id="toc-sidebar" class="sticky-top"></nav>
+          </div>
+          <!-- main content area -->
+          <div class="col-sm-9">
+            <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">A PhD in Numbers</h1>
+    <p class="post-meta">July 7, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/category/sample-posts">
+          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+          <a href="/blog/category/toc">
+          <i class="fas fa-tag fa-sm"></i> toc</a>  
+          <a href="/blog/category/sidebar">
+          <i class="fas fa-tag fa-sm"></i> sidebar</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <h2 id="a-phd-in-numbers">A PhD in Numbers</h2>
+
+<p>In this article, I reflect on my experience as a PhD researcher, going beyond the publications listed on Google Scholar to provide a comprehensive understanding of the extensive nature of conducting PhD research. After successfully defending my PhD, I wanted to share the insights into the day-to-day work involved in pursuing a PhD by presenting the journey through numerical figures.</p>
+
+<p>A PhD program aims to develop independent research skills and is often a prerequisite for academic and research careers. While publications and conference presentations are commonly associated with PhDs, the nature of these programs varies across disciplines, countries, and institutions, leading to diverse experiences. In this article, I will share my four-year PhD journey at Tissue Image Analytics Center, University of Warwick, highlighting the publications, posters, and talks as measurable outcomes.</p>
+
+<h3 id="time">Time</h3>
+
+<p>Time is an important factor as it shows your commitment towards your degree from the very start to the end. It took me 4 years to complete my PhD, which translates into approximately <strong>208</strong> weeks and <strong>1,040</strong> workdays (assuming a 5-day workweek).</p>
+
+<aside>
+✅ **Time
+208 Weeks
+1040 Days**
+
+</aside>
+
+<aside>
+🚫 PhD’s are known as masters of turning weekends into workends to meet the extra deadlines.
+
+</aside>
+
+<h3 id="travel">Travel</h3>
+
+<p>Travel in a PhD program offers invaluable opportunities for networking, collaboration, knowledge exchange, and personal growth. Over the course of my PhD journey, I had the privilege of attending 4 conferences in-person and 2 virtually due to the COVID-19 pandemic. I also participated in 4 in-person workshops and 1-virtual, each spanning 2-3 days, enriching my academic experience and expanding my network.</p>
+
+<aside>
+✅ **Time
+4 In-Person Conferences
+2 Virtual Conferences
+4 In-Person Workshops
+1 Virtual Workshop**
+
+</aside>
+
+<aside>
+🚫 There were a few instances where I encountered challenges with obtaining visas or securing funding for certain conferences, workshops, and summer schools and bootcamps.
+
+</aside>
+
+<h3 id="publication">Publication</h3>
+
+<p>Publications are vital in a PhD journey, as they validate contributions, establish credibility, and open doors for collaboration and career advancement. During my PhD, I had the opportunity to present 4 accepted papers at conferences, workshops, and abstracts. Additionally, I successfully published two papers in reputable journals, with one more currently under review. Collaboration played a significant role in my research journey, as I had the privilege of collaborating with fellow lab members on eight publications across journals and conferences, fostering a dynamic and productive research environment.</p>
+
+<aside>
+✅ **Papers
+4 Conference/Workshops
+2 Journals + 1 Submitted
+3** **Rejections**
+
+</aside>
+
+<aside>
+🚫 Rejections on papers are a common and integral part of the research process. Most of my papers were published at the end of my PhD.
+
+</aside>
+
+<h3 id="code">Code</h3>
+
+<p>Proficient coding is crucial in a PhD journey, enabling experimentation, analysis, and reproducibility, ultimately contributing to the quality and impact of published papers. Throughout the span of 4 years, encompassing approximately 208 weeks, I have worked on ~13 different projects that have collectively involved coding efforts approximately 13000 lines of code. Factoring in this timeframe, it roughly amounts to an average of ~10 lines of code written per day, showcasing the consistent and dedicated coding work invested in these projects.</p>
+
+<aside>
+✅ **Code
+~13 Projects
+~13000 lines of code
+4 Public Repositories**
+
+</aside>
+
+<aside>
+🚫 Often a project is abandoned due to lack of collaborations in data and time sharing or lack of significant discovery in the data or method.
+
+</aside>
+
+<h3 id="literature-review">Literature Review</h3>
+
+<p>A literature review is a significant aspect of a PhD, demanding substantial time and effort. Reading and staying up-to-date with relevant papers constitute a considerable portion of the research process. Throughout my PhD journey, I have read over 500+ papers, with a focus on topics encompassing computer vision, medical imaging, and computational pathology. Among these, I have summarized and annotated approximately 100+ papers using tools like Notability.</p>
+
+<aside>
+✅ **Reading
+500+ Papers
+100+ Annotated
+Averages to:
+~2 Papers Weekly
+~0.5 Paper Daily**
+
+</aside>
+
+<aside>
+🚫 Often I adopted a bulk reading approach to go through a substantial number of papers, and subsequently selected the relevant ones for further in-depth review after conference proceedings were made available.
+
+</aside>
+
+<h3 id="coding-challenges">Coding Challenges</h3>
+
+<p>Challenges or competitions hold significant importance in a PhD journey as they provide opportunities to test and showcase coding skills, problem-solving abilities, and innovative thinking. During my PhD, I actively participated in 6 coding challenges, where our team pushed the boundaries of certain applications. Out of these challenges, we achieved remarkable success, winning 3 competitions with being in Top-3, encountering setbacks in 2 instances, and opting to withdraw from one challenge. Participating in challenges demands a significant time commitment (3-4 weeks) per challenge and they contribute ~6 months of my PhD journey.</p>
+
+<aside>
+✅ **Challenges
+3 Top-3 Winners
+2 Lost
+1 Withdrawn**
+
+</aside>
+
+<aside>
+🚫 It is important to carefully consider this aspect and strike a balance between engaging in challenges and focusing on research objectives.
+
+</aside>
+
+<h3 id="communication">Communication</h3>
+
+<p>Communication is a crucial aspect of a PhD journey, involving various interactions and exchanges of ideas/thoughts. During the course of my PhD, it was supervisory meetings held fortnightly, roughly ~85 meetings. Additionally, participation in ~30 lab meetings as participants and chair fostered collaboration and knowledge sharing. Moreover, prepared ~100 PowerPoint presentations, having on average ~15 slides each. In terms of email correspondence, it played a significant role. I’ve received ~6000 emails where I sent ~2000, facilitating regular communication with colleagues and collaborators.</p>
+
+<aside>
+✅ **Communication
+~85 Supervisory Meetings
+~30 Lab Meetings
+~6000 Emails Received
+~2000 Email Sent**
+
+</aside>
+
+<aside>
+🚫 Balancing multiple meetings in a short period of time, such as supervisory and lab meetings, can lead to feeling overwhelmed and disrupt focused research time.
+
+</aside>
+
+<h3 id="teaching-assistant">Teaching Assistant</h3>
+
+<p>Teaching assistant roles during a PhD offer valuable opportunities for academic growth and teaching experience. During my PhD journey, I had the opportunity to serve as a teaching assistant for four courses, where I played a significant role in designing and supervising labs and assessments.</p>
+
+<aside>
+✅ **TAship
+Supervised Labs = 4
+Wrote Lab Manual = 2
+Designed Assessments = 1**
+
+</aside>
+
+<aside>
+🚫 TAship can pose challenges when balancing research deadlines and responsibilities in the labs.
+
+</aside>
+
+<h3 id="reviews">Reviews</h3>
+
+<p>Engaging in the peer review process not only enhances academic knowledge but also serves as a positive way to give back to the community and contribute to the advancement of knowledge. During my PhD journey, I had the opportunity to review ~7 papers from 3 distinct venues.</p>
+
+<aside>
+✅ **Peer Review
+~7 Reviews
+3 Distinct Venues**
+
+</aside>
+
+<aside>
+🚫 Publishing one's research is often a prerequisite for the peer review process.
+
+</aside>
+
+<h3 id="it">IT</h3>
+
+<p>PhD experiences can involve administrative responsibilities, and I actively participated in various roles, notably managing a challenge for three years, which provided valuable organizational and leadership skills alongside my research endeavors.</p>
+
+<aside>
+✅ **IT
+~100 Post-Contest Requests**
+
+</aside>
+
+<aside>
+🚫 Involves potential risk of data mishandling or unauthorized access.
+
+</aside>
+
+<p>Finally, it is important to acknowledge the aspects where these numbers would be zero, indicating activities that I did not engage in during my PhD and would have done if given the chance again.</p>
+
+<blockquote>
+  <p>Inspired by: David Stutz <a href="https://davidstutz.de/a-phd-in-numbers/" rel="external nofollow noopener" target="_blank">https://davidstutz.de/a-phd-in-numbers/</a>
+```</p>
+</blockquote>
+
+    </div>
+  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "alshedivat/al-folio",
+        "data-repo-id": "MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==",
+        "data-category": "Comments",
+        "data-category-id": "DIC_kwDOA5PmLc4CTBt6",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+</div>
+</div>
+
+          </div>
+        </div>
+        
+      
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Saad  Bashir. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script>
+  <!-- Sidebar Table of Contents -->
+  <script defer src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/assets/js/no_defer.js"></script>
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7K15H4KQVC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-7K15H4KQVC');
+  </script>
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
